@@ -1,0 +1,108 @@
+.lists {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    /* padding-left: 0;  */
+    padding-top: 80px;
+}
+
+/* SKILLS GRID */
+.about-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    /* margin: auto; */
+    padding: 20px 40px;
+}
+
+/* EACH SKILL */
+.about-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+/* SKILL IMAGE */
+.about-skill img {
+    width: 120px; 
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* SKILL NAME */
+.about-skill p {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+}
+
+/* HOVER EFFECT */
+.about-skill:hover {
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE FIX — MOBILE */
+@media (max-width: 768px) {
+    .about-skills {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+    }
+
+    .lists {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-skills {
+        grid-template-columns: 1fr;
+    }
+
+    .about-skill img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Achievements Section */
+.about-achievements {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.about-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.about-achievement:hover {
+    transform: scale(1.12);
+}
+
+.about-achievement h1 {
+    font-weight: 600;
+    margin-top: -60px;
+    cursor: pointer;
+}
+
+.about-achievement p {
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Vertical Separator */
+.separator {
+    width: 2px;
+    height: 70px;
+    background-color: white;
+    margin-top: -60px;
+}

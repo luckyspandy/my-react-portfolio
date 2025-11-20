@@ -1,26 +1,56 @@
 .man{
     margin-top: 20px;
     padding-left: 20px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 230px;
+    margin-bottom: -10px;
+
 }
 
 .hero{
+    min-height: 150vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 40px;
-    padding-top: 80px;
+    padding-top: 75px;
     height: 100vh;
     box-sizing: border-box;
+    /* margin-bottom:20px; */
+
 }
 
 .hero h1 {
-   font-size: 50px;
+   font-size: 20px;
     text-align: center;
-    width: 70%;
+    margin-bottom: -30px;
 }
 
+.hero h2 {
+   font-size: 50px;
+    text-align: center;
+
+}
+
+.wave {
+  display: inline-block;
+  font-size: 12px;
+  animation: wave-animation 1.5s infinite;
+  /* transform-origin: 60% 70%; */
+  background: none !important;
+  -webkit-text-fill-color: initial !important;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
 .hero h1 span{
     background: linear-gradient(270deg,#DF8908 10%, #B415FF 106.06%);
     background-clip: text;

@@ -1,5 +1,6 @@
 import React from 'react'
-import './Skills.css'
+// import './Skills.css'
+import './Skills1.css'
 import html from '../../../assets/HTML.png'
 import css from '../../../assets/CSS.png'
 import js from '../../../assets/JS.png'

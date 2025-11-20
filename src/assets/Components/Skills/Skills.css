@@ -1,10 +1,10 @@
 .lists{
-    /* margin-bottom: 0px; */
+    /* margin-bottom: 10px; */
     /* align-self: flex-start; */
     padding-left: 45%;
     font-size: 80px;
     height: 4vh;
-    /* padding-top: 0px; */
+    /* padding-bottom: 10px; */
     /* max-height: 100px; */
 }
 
@@ -31,6 +31,7 @@
 
 
 .about-skill{
+    
     display: grid;
     flex-direction: column;
     /* margin: 0px; */
