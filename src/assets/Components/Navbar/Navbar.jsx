@@ -17,11 +17,6 @@ const Navbar = () => {
       <div><h1 className='name'>Spandana</h1>
       </div>
 
-    {/* <div className='menu-icon' onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <X size={28} /> : <Menu size={28} />}
-      </div>  
-    {isOpen && (  */}
-      {/* <ul className={`nav-menu ${isOpen ? 'open' : ''}`}> */}
         <ul className="nav-menu">
         <li><a className={`anchorlink ${menu === "home" ? "active" : ""}`}
             href="#home" onClick={() => { setMenu("home")}}>Home</a></li>
