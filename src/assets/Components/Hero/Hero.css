@@ -1,9 +1,9 @@
 .man{
     display: block;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-left: 0px;
-    width: 250px;
-    height: 230px;
+    width: 300px;
+    height: 280px;
 
 }
 
@@ -12,10 +12,10 @@
     align-items: center;
     flex-direction: column;
     gap: 5px !important;
-    padding-top: 90px !important;
+    padding-top: 80px !important;
     padding-bottom: 30px !important;
     box-sizing: border-box;
-    min-height: 105vh;
+    min-height: 107vh;
 }
 
 .hero h1 {

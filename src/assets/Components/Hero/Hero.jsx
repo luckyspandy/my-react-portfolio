@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css';
-import human from '../../../assets/photo1.png';
+import human from '../../../assets/photo1.jpg';
 import { FileText } from 'lucide-react';
 
 const Hero = () => {
