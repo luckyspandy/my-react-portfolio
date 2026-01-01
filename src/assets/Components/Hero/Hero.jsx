@@ -15,7 +15,7 @@ actively seeking a transition into a technical role. Currently upskilling my ski
 front-end development with a focus on building responsive user interfaces. Seeking an 
 opportunity to leverage my problem-solving and analytical skills in a developer role. </p> */}
 
-<p>Results-driven professional with over 3.5+ years of experience in operations and development, 
+<p>Results-driven professional with over 3.5 years of experience in operations and development, 
 actively seeking a transition into a technical role. </p>
 
       <div className='hero-action'>
@@ -23,7 +23,7 @@ actively seeking a transition into a technical role. </p>
  <a href="#contact" className='nav-connect'>Connect with me</a>
         {/* <div className="hero-resume">  */}
         <a
-          href="./Spandana-Resume.pdf" target="_blank" rel="noopener noreferrer" className="hero-resume"> My Resume</a>
+          href="./Spandana.pdf" target="_blank" rel="noopener noreferrer" className="hero-resume"> My Resume</a>
         
           {/* </div> */}
 
